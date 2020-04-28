@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/goji/httpauth"
-	"github.com/stellar/go/services/compliance/internal/config"
-	"github.com/stellar/go/services/compliance/internal/mocks"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/config"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/mocks"
 	"github.com/stellar/go/support/http/httptest"
 )
 

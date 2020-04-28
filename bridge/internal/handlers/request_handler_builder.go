@@ -9,8 +9,8 @@ import (
 	hc "github.com/stellar/go/clients/horizonclient"
 	"github.com/stellar/go/keypair"
 	protocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/http/helpers"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/protocols/bridge"
 	"github.com/stellar/go/txnbuild"
 )
 

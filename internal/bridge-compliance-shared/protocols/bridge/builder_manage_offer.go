@@ -5,9 +5,9 @@ import (
 
 	"github.com/stellar/go/txnbuild"
 
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
+	shared "github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/http/helpers"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/protocols"
 )
 
 // ManageOfferOperationBody represents manage_offer operation

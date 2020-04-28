@@ -6,8 +6,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	hc "github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/http/helpers"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/protocols/bridge"
 	"github.com/stellar/go/txnbuild"
 )
 

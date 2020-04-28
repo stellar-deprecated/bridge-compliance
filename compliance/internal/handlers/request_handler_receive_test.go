@@ -9,10 +9,10 @@ import (
 	"github.com/stellar/go/support/http/httptest"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/stellar/go/services/compliance/internal/config"
-	"github.com/stellar/go/services/compliance/internal/db"
-	"github.com/stellar/go/services/compliance/internal/mocks"
-	callback "github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/compliance"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/config"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/db"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/mocks"
+	callback "github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/protocols/compliance"
 )
 
 func TestRequestHandlerReceive(t *testing.T) {

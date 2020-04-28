@@ -7,7 +7,7 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/http/helpers"
 )
 
 // KeyPair struct contains key pair public and private key

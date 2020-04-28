@@ -4,10 +4,10 @@ import (
 	"github.com/stellar/go/clients/federation"
 	hc "github.com/stellar/go/clients/horizonclient"
 	"github.com/stellar/go/clients/stellartoml"
-	"github.com/stellar/go/services/bridge/internal/config"
-	"github.com/stellar/go/services/bridge/internal/db"
-	"github.com/stellar/go/services/bridge/internal/listener"
-	"github.com/stellar/go/services/bridge/internal/submitter"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/config"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/db"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/listener"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/submitter"
 	"github.com/stellar/go/support/http"
 )
 

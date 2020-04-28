@@ -1,7 +1,7 @@
 package mocks
 
 import (
-	"github.com/stellar/go/services/bridge/internal/db"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/db"
 	"github.com/stretchr/testify/mock"
 )
 

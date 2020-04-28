@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/stellar/go/services/compliance/internal/db"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/db"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/http/helpers"
 )
 
 // HandlerAllowAccess implements /allow_access endpoint

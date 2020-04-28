@@ -10,10 +10,10 @@ import (
 	"github.com/go-chi/chi"
 	log "github.com/sirupsen/logrus"
 	"github.com/stellar/go/protocols/compliance"
-	"github.com/stellar/go/services/bridge/internal/db"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
-	callback "github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/compliance"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/db"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/http/helpers"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/protocols/bridge"
+	callback "github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/protocols/compliance"
 	"github.com/stellar/go/support/errors"
 )
 

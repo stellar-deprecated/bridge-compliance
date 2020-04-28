@@ -2,8 +2,8 @@ package bridge
 
 import (
 	b "github.com/stellar/go/build"
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
+	shared "github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/http/helpers"
 	"github.com/stellar/go/txnbuild"
 )
 

@@ -7,10 +7,10 @@ import (
 
 	hc "github.com/stellar/go/clients/horizonclient"
 	hProtocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/bridge/internal/config"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/config"
 
-	"github.com/stellar/go/services/bridge/internal/mocks"
-	"github.com/stellar/go/services/bridge/internal/test"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/mocks"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/test"
 	"github.com/stellar/go/support/http/httptest"
 	"github.com/stretchr/testify/assert"
 )

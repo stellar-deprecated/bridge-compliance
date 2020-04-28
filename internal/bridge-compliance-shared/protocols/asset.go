@@ -3,7 +3,7 @@ package protocols
 import (
 	"fmt"
 
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
+	shared "github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/txnbuild"
 )

@@ -15,10 +15,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/stellar/go/services/compliance/internal/config"
-	"github.com/stellar/go/services/compliance/internal/db"
-	"github.com/stellar/go/services/compliance/internal/mocks"
-	"github.com/stellar/go/services/compliance/internal/test"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/config"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/db"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/mocks"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/test"
 	"github.com/stellar/go/txnbuild"
 )
 

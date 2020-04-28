@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	hProtocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/bridge/internal/config"
-	"github.com/stellar/go/services/bridge/internal/mocks"
-	"github.com/stellar/go/services/bridge/internal/test"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/config"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/mocks"
+	"github.com/stellar-deprecated/bridge-compliance/bridge/internal/test"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/protocols"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/protocols/bridge"
 )
 
 func TestRequestHandlerAuthorize(t *testing.T) {

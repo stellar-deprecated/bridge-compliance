@@ -6,9 +6,9 @@ import (
 
 	"github.com/stellar/go/clients/federation"
 	"github.com/stellar/go/clients/stellartoml"
-	"github.com/stellar/go/services/compliance/internal/config"
-	"github.com/stellar/go/services/compliance/internal/crypto"
-	"github.com/stellar/go/services/compliance/internal/db"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/config"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/crypto"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/db"
 	"github.com/stellar/go/support/http"
 )
 

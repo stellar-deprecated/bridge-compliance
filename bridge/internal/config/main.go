@@ -6,7 +6,7 @@ import (
 	"regexp"
 
 	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
+	"github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/protocols"
 )
 
 // Config contains config params of the bridge server

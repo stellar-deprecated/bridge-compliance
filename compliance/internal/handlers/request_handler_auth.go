@@ -16,10 +16,10 @@ import (
 
 	baseAmount "github.com/stellar/go/amount"
 	"github.com/stellar/go/protocols/compliance"
-	"github.com/stellar/go/services/compliance/internal/db"
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	httpHelpers "github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	callback "github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/compliance"
+	"github.com/stellar-deprecated/bridge-compliance/compliance/internal/db"
+	shared "github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared"
+	httpHelpers "github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/http/helpers"
+	callback "github.com/stellar-deprecated/bridge-compliance/internal/bridge-compliance-shared/protocols/compliance"
 	"github.com/stellar/go/xdr"
 )
 
